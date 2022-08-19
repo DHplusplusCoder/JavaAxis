@@ -30,7 +30,12 @@ public class NewMain {
         
         for(int j = 0; j < 4; j++)
         {
-            
+            x += 1;
+            Lights[x] = false;
+            x -= 1; 
+            Lights[x] = false;
+            y += 1;
+            Distance += 1;
         }
         
     }
